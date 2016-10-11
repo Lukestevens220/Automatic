@@ -45,6 +45,8 @@ public class RegisterActivity extends Activity {
         nationalNumber = (EditText) findViewById(R.id.nationalNumber);
         re_password = (EditText) findViewById(R.id.re_password);
 
+
+
         register.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

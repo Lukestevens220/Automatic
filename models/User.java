@@ -1,16 +1,21 @@
-package com.example.luke.myproject;
+package com.example.luke.myproject.models;
 
 import io.realm.RealmObject;
+import io.realm.annotations.PrimaryKey;
+
 
 /**
  * Created by TheAppExperts on 10/10/2016.
  */
 
 
-public class User extends RealmObject{
+public class User extends RealmObject {
 
     // private variables
+    @PrimaryKey
     public String _name;
+
+
     public String nationalNumber;
     public String password;
     public String rePassword;
@@ -85,4 +90,6 @@ public class User extends RealmObject{
 
 
     }
+
+
 }
